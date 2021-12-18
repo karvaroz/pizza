@@ -1,0 +1,140 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #222222;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #222222;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header img {
+  height: 80px;
+}
+
+header ul {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  list-style: none;
+  font-size: 16px;
+  color: white;
+}
+
+main {
+  margin: 35px 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.container-1 {
+  width: 490px;
+  height: 350px;
+  background-image: url(/img/delivery.jpg);
+  border-radius: 5px;
+}
+
+.text-1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 20px 0 0 20px;
+}
+
+.text-1-b {
+  color: #f3f3f3;
+}
+
+.text-1-r {
+  color: red;
+}
+
+.container-2 {
+  width: 490px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-2 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 20px 0 58px 0;
+  color: red;
+}
+
+.contenedor-pizza {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pizza-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 101px;
+}
+
+.pizza-info p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+}
+
+.pizza-info ol {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+footer {
+  background: #222222;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 20px 20px;
+  text-decoration: none;
+  height: 150px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  list-style: none;
+  font-size: 16px;
+  color: #ffff;
+  font-weight: 400;
+}
